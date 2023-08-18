@@ -1,0 +1,103 @@
+
+.listdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 355px;
+    max-width: 355px;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.heading{
+    
+    min-width: 340px;
+    max-width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 5vh;
+}
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #4361EE;
+}
+@media screen and (max-width:379px) {
+  
+    .listdiv{
+        min-width: 330px;
+        max-width: 330px;
+    }  
+    .heading{
+    
+        min-width: 330px;
+        max-width: 330px;
+    }
+    h1{
+        font-size: 34px;
+    }
+  }
+
+  @media screen and (max-width:359px) {
+  
+    .listdiv{
+        min-width: 310px;
+        max-width: 310px;
+    }  
+    .heading{
+    
+        min-width: 310px;
+        max-width: 310px;
+    }
+    h1{
+        font-size: 32px;
+    }
+  }
+  @media screen and (max-width:329px) {
+    
+
+    .listdiv{
+        min-width: 290px;
+        max-width: 290px;
+    }  
+    .heading{
+    
+        min-width: 290px;
+        max-width: 290px;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+  }
+  @media screen and (max-width:299px) {
+    
+    .listdiv{
+        min-width: 270px;
+        max-width: 270px;
+    }  
+    .heading{
+    
+        min-width: 270px;
+        max-width: 270px;
+    }
+    h1{
+        font-size: 28px;
+    }
+  }
+  @media screen and (max-width:289px) {
+  
+    .listdiv{
+        min-width: 250px;
+        max-width: 250px;
+    }  
+    .heading{
+    
+        min-width: 250px;
+        max-width: 250px;
+    }
+    h1{
+        font-size: 26px;
+    }
+  }

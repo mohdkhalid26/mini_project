@@ -1,0 +1,49 @@
+.navbardiv{
+min-width: 340px;
+max-width: 340px;
+min-height: 4vh;
+max-height: 4vh;
+margin-top: 14px;
+
+}
+.menu{
+    cursor: pointer;
+    
+}
+@media screen and (max-width:379px){
+    .navbardiv{
+        min-width: 330px;
+        max-width: 330px;
+    }
+}
+
+@media screen and (max-width:359px) {
+
+    .navbardiv{
+        min-width: 310px;
+        max-width: 310px;
+    }
+
+}
+
+@media screen and (max-width:329px) {
+    .navbardiv{
+        min-width: 290px;
+        max-width: 290px;
+    }
+  
+  }
+  @media screen and (max-width:299px) {
+    .navbardiv{
+        min-width: 270px;
+        max-width: 270px;
+    }
+  
+  }
+  @media screen and (max-width:289px) {
+    .navbardiv{
+        min-width: 250px;
+        max-width: 250px;
+    }
+  
+  }
