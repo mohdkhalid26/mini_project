@@ -18,7 +18,7 @@ position: relative;
     justify-content: center;
     z-index: 1;
     border-radius: 0 0 43px 43px;
-    top: 0%;
+    bottom: 0%;
     position: fixed;
     transition: all 500ms ease-in-out;
 
@@ -31,7 +31,7 @@ position: relative;
     justify-content: center;
     z-index: 1;
     border-radius: 0 0 43px 43px;
-    top: -43%;
+    bottom: -43%;
     position: fixed;
     
     transition: all 500ms ease-in-out;
