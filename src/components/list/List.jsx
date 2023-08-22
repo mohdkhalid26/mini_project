@@ -4,6 +4,8 @@ import Navbar from '../navbar/Navbar'
 import ListType from '../listgrid/ListType'
 function List() {
   return (
+    
+
     <div className='listdiv'>
 
 <Navbar/>
@@ -12,6 +14,7 @@ function List() {
 </div>
 <ListType/>
     </div>
+    
   )
 }
 

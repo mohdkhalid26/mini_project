@@ -1,103 +1,115 @@
-
 .listdiv{
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 480px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
-    min-width: 355px;
-    max-width: 355px;
-    min-height: 100vh;
-    max-height: 100vh;
+    align-items: center;
+    /* background-color: bisque; */
+    background-color: white;
 }
 .heading{
-    
-    min-width: 340px;
-    max-width: 340px;
+    /* background-color: aquamarine; */
+    max-height: 43px;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-height: 5vh;
+    max-width: 450px;
+    width: 100%;
 }
-h1{
-    font-size: 36px;
+.heading h1{
+    color:  #2196F3;
     font-weight: 700;
-    color: #4361EE;
+    font-size: 43px;
 }
-@media screen and (max-width:379px) {
-  
+@media screen and (max-width:480px) {
     .listdiv{
-        min-width: 330px;
+        max-width: 450px;
+        width: 100%;
+        }
+        .heading{
+            max-width: 420px;
+        
+}
+}
+@media screen and (max-width:450px) {
+    .listdiv{
+        max-width: 420px;
+        width: 100%;
+        }
+        
+        .heading{
+            max-width: 390px;
+        
+}
+}
+@media screen and (max-width:420px) {
+    .listdiv{
+        max-width: 390px;
+        width: 100%;
+        }
+        
+        .heading{
+            max-width: 360px;
+        
+}
+}
+@media screen and (max-width:390px) {
+    .listdiv{
+        max-width: 360px;
+        width: 100%;
+        }
+        .heading{
+            max-height: 38px;
+            max-width: 330px;
+           }
+        .heading h1{
+            font-size: 38px;
+        }
+}
+@media screen and (max-width:360px) {
+    .listdiv{
         max-width: 330px;
-    }  
-    .heading{
-    
-        min-width: 330px;
-        max-width: 330px;
-    }
-    h1{
-        font-size: 34px;
-    }
-  }
-
-  @media screen and (max-width:359px) {
-  
+        width: 100%;
+        }
+        
+        .heading{
+            max-height: 34px;
+            max-width: 300px;
+           }
+        .heading h1{
+            font-size: 34px;
+        }
+}
+@media screen and (max-width:330px) {
     .listdiv{
-        min-width: 310px;
-        max-width: 310px;
-    }  
-    .heading{
-    
-        min-width: 310px;
-        max-width: 310px;
-    }
-    h1{
-        font-size: 32px;
-    }
-  }
-  @media screen and (max-width:329px) {
-    
-
+        max-width: 300px;
+        width: 100%;
+        }
+        
+        .heading{
+            max-height: 29px;
+            max-width: 270px;
+           }
+        
+        .heading h1{
+            font-size: 29px;
+        }
+}
+@media screen and (max-width:300px) {
     .listdiv{
-        min-width: 290px;
-        max-width: 290px;
-    }  
-    .heading{
-    
-        min-width: 290px;
-        max-width: 290px;
-    }
-    h1{
-        font-size: 30px;
-    }
-
-  }
-  @media screen and (max-width:299px) {
-    
-    .listdiv{
-        min-width: 270px;
         max-width: 270px;
-    }  
-    .heading{
-    
-        min-width: 270px;
-        max-width: 270px;
-    }
-    h1{
-        font-size: 28px;
-    }
-  }
-  @media screen and (max-width:289px) {
-  
-    .listdiv{
-        min-width: 250px;
-        max-width: 250px;
-    }  
-    .heading{
-    
-        min-width: 250px;
-        max-width: 250px;
-    }
-    h1{
-        font-size: 26px;
-    }
-  }
+        width: 100%;
+        }
+        
+        .heading{
+            max-width: 240px;
+            max-height: 27px;
+           }
+        
+        .heading h1{
+            font-size: 27px;
+        }
+}

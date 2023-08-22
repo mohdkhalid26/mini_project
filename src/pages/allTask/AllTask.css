@@ -1,0 +1,523 @@
+.alltask{
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 480px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    position: relative;
+}
+
+.goback{
+    margin-top: 14px;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: burlywood; */
+}
+.goback img{
+    cursor: pointer;
+    width: 43px;
+}
+.alltaskhead{
+    /* background-color: aquamarine; */
+    max-height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+    width: 100%;
+}
+.alltaskhead h1{
+    margin-right: 7px;
+    font-size: 43px;
+    
+    color:  #2196F3;
+    font-weight: 700;
+    
+}
+.alltaskhead img{
+    margin-left: 7px;
+    width: 43px;
+}
+.taskdiv{
+    padding-top: 5px;
+    padding-bottom: 61px;
+    max-width:450px ;
+    width: 100%;
+margin-top: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-items: center;
+overflow: hidden;
+overflow-y: scroll;
+/* background-color: darkkhaki; */
+}
+.taskdiv::-webkit-scrollbar{
+    display: none;
+}
+.data{
+    /* border-bottom: 1px solid #616161;
+    background-color: aqua; */
+   margin-top: 7px;
+    display: flex;
+   align-items: first baseline;
+    justify-content: space-between;
+    max-width: 420px;
+    width: 100%;
+    padding: 7px;
+}
+.blur{
+    margin-right: 14px;
+    /* background: pink; */
+    width: 23px;
+    color: #616161;
+    padding-bottom: 2px;
+}
+.datap{
+    font-weight: 400;
+    text-align:justify;
+    font-size: medium;
+    /* background: pink; */
+    color: #616161;
+    max-width: 333px;
+    min-width: 333px;
+    
+}
+.checkme{
+    margin-left: 14px;
+    /* background: pink; */
+    width: 18px;
+    cursor: pointer;
+}
+.deleteme{
+    cursor: pointer;
+    margin-left: 14px;
+    /* background: pink; */
+    width: 18px;
+}
+.add{
+    max-width: 480px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0%;
+    border-top: 1px solid #00000040;
+max-height: 7vh;
+    
+}
+.add img{
+    background-color: white;
+    position: relative;
+    bottom: 25px;
+    border-radius: 50%;
+    border-top: 1px solid #00000040;
+    padding: 7px;
+    width: 54px;
+    cursor: pointer;
+}
+@media screen and (max-width:480px) {
+    .alltask{
+        max-width: 450px;
+        
+    
+        }
+    
+    .goback{
+        max-width: 420px;
+        }
+    /* .goback img{
+        cursor: pointer;
+        width: 43px;
+    } */
+    .alltaskhead{
+        /* max-height: 43px; */
+        max-width: 420px;
+    }
+    /* .alltaskhead h1{
+        font-size: 43px;
+        
+    } */
+    /* .alltaskhead img{
+        width: 43px;
+    } */
+    .taskdiv{
+        max-width:420px ;
+        
+        }
+    
+    .data{
+        max-width: 390px;
+    }
+    
+.datap{
+    max-width: 303px;
+    min-width: 303px;
+    
+}
+    /* .blur{
+        width: 23px;
+        }
+    
+    .checkme{
+        width: 18px;
+        }
+    .deleteme{
+        width: 18px;
+    } */
+    .add{
+        max-width: 450px;
+        /* max-height: 7vh; */
+        
+    }
+    /* .add img{
+        bottom: 25px;
+        width: 54px;
+        } */
+    }
+@media screen and (max-width:450px) {
+    .alltask{
+        max-width: 420px;
+        
+        }
+    
+    .goback{
+        max-width: 390px;
+        }
+    /* .goback img{
+        cursor: pointer;
+        width: 43px;
+    } */
+    .alltaskhead{
+        /* max-height: 43px; */
+        max-width: 390px;
+    }
+    /* .alltaskhead h1{
+        font-size: 43px;
+        
+    } */
+    /* .alltaskhead img{
+        width: 43px;
+    } */
+    .taskdiv{
+        max-width:390px ;
+        }
+    
+    .data{
+        max-width: 360px;
+    }
+    .datap{
+        max-width: 273px;
+        min-width: 273px;
+        
+    }
+    /* .blur{
+        width: 23px;
+        }
+    
+    .checkme{
+        width: 18px;
+        }
+    .deleteme{
+        width: 18px;
+    } */
+    .add{
+        max-width: 420px;
+        /* max-height: 7vh; */
+        
+    }
+    /* .add img{
+        bottom: 25px;
+        width: 54px;
+        } */}
+@media screen and (max-width:420px) {
+    .alltask{
+        max-width: 390px;
+        
+        }
+    
+    .goback{
+        max-width: 360px;
+        }
+    /* .goback img{
+        cursor: pointer;
+        width: 43px;
+    } */
+    .alltaskhead{
+        /* max-height: 43px; */
+        max-width: 360px;
+    }
+    /* .alltaskhead h1{
+        font-size: 43px;
+        
+    } */
+    /* .alltaskhead img{
+        width: 43px;
+    } */
+    .taskdiv{
+        max-width:360px ;
+        }
+    
+    .data{
+        max-width: 330px;
+    }
+    
+    .datap{
+        max-width: 243px;
+        min-width: 243px;
+        
+    }
+    /* .blur{
+        width: 23px;
+        }
+    
+    .checkme{
+        width: 18px;
+        }
+    .deleteme{
+        width: 18px;
+    } */
+    .add{
+        max-width: 390px;
+        /* max-height: 7vh; */
+        
+    }
+    /* .add img{
+        bottom: 25px;
+        width: 54px;
+        } */
+}
+@media screen and (max-width:390px) {
+    .alltask{
+        max-width: 360px;
+        
+        }
+    
+    .goback{
+        max-width: 330px;
+        }
+    .goback img{
+        
+        width: 38px;
+    }
+    .alltaskhead{
+        max-height: 38px;
+        max-width: 330px;
+    }
+    .alltaskhead h1{
+        font-size: 38px;
+        
+    }
+    .alltaskhead img{
+        width: 38px;
+    }
+    .taskdiv{
+        max-width:330px ;
+        }
+    
+    .data{
+        max-width: 300px;
+    }
+    .blur{
+        width: 20px;
+        }
+    .datap{
+        font-size: small;
+        
+            max-width: 223px;
+            min-width: 223px;
+            
+        
+        
+    }
+    .checkme{
+        width: 15px;
+        }
+    .deleteme{
+        width: 15px;
+    }
+    .add{
+        max-width: 360px;
+        max-height: 6vh;
+        
+    }
+    .add img{
+        /* bottom: 20px; */
+        width: 49px;
+        }
+}
+@media screen and (max-width:360px) {
+    .alltask{
+        max-width: 330px;
+        
+        }
+    
+    .goback{
+        max-width: 300px;
+        }
+    .goback img{
+        
+        width: 33px;
+    }
+    .alltaskhead{
+        max-height: 33px;
+        max-width: 300px;
+    }
+    .alltaskhead h1{
+        font-size: 33px;
+        
+    }
+    .alltaskhead img{
+        width: 33px;
+    }
+    .taskdiv{
+        max-width:300px ;
+        }
+    
+    .data{
+        max-width: 290px;
+    }
+    .datap{
+        max-width: 213px;
+        min-width: 213px;
+       
+    }
+    .blur{
+        width: 17px;
+        }
+    
+    .checkme{
+        width: 12px;
+        }
+    .deleteme{
+        width: 12px;
+    }
+    .add{
+        max-width: 330px;
+        /* max-height: 6vh; */
+        
+    }
+    .add img{
+        /* bottom: 20px; */
+        width: 44px;
+        }
+}
+@media screen and (max-width:330px) {
+    .alltask{
+        max-width: 300px;
+        
+        }
+    
+    .goback{
+        max-width: 290px;
+        }
+    .goback img{
+        
+        width: 28px;
+    }
+    .alltaskhead{
+        max-height: 28px;
+        max-width: 290px;
+    }
+    .alltaskhead h1{
+        font-size: 28px;
+        
+    }
+    .alltaskhead img{
+        width: 28px;
+    }
+    .taskdiv{
+        max-width:290px ;
+        }
+    
+    .data{
+        max-width: 260px;
+    }
+    /* .blur{
+        width: 17px;
+        } */
+        .datap{
+            max-width: 193px;
+            min-width: 193px;
+           
+        }
+    /* .checkme{
+        width: 12px;
+        }
+    .deleteme{
+        width: 12px;
+    } */
+    .add{
+        max-width: 300px;
+        max-height: 5vh;
+        
+    }
+    .add img{
+        bottom: 15px;
+        width: 34px;
+        }
+
+}
+@media screen and (max-width:300px) {
+    .alltask{
+        max-width: 270px;
+        
+        }
+    
+    .goback{
+        max-width: 260px;
+        }
+    /* .goback img{
+        
+        width: 28px;
+    } */
+    .alltaskhead{
+        /* max-height: 28px; */
+        max-width: 260px;
+    }
+    /* .alltaskhead h1{
+        font-size: 28px;
+        
+    } */
+    /* .alltaskhead img{
+        width: 28px;
+    } */
+    .taskdiv{
+        max-width:260px ;
+        }
+    
+    .data{
+        max-width: 230px;
+    }
+    /* .blur{
+        width: 17px;
+        } */
+        .datap{
+            max-width: 163px;
+            min-width: 163px;
+           
+        }
+    /* .checkme{
+        width: 12px;
+        }
+    .deleteme{
+        width: 12px;
+    } */
+    .add{
+        max-width: 270px;
+        /* max-height: 5vh; */
+        
+    }
+    /* .add img{
+        bottom: 15px;
+        width: 34px;
+        } */
+}

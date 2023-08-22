@@ -6,11 +6,11 @@ export default function Navbar() {
 
 
   return (
-    <div className='navbardiv'>
+  
 
 <div className="menu">
-  <img src={menuIcon} alt="" srcset="" />
+  <img src={menuIcon} alt={menuIcon} srcSet="" />
 </div>
-    </div>
+  
   )
 }
