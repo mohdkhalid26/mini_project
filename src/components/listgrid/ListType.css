@@ -1,157 +1,134 @@
-.grid{
-    padding-top: 14px;
-    padding-bottom: 14px;
-    max-width:450px ;
-    width: 100%;
-margin-top: 25px;
-display: grid;
-grid-template-columns: 1fr 1fr;
-align-items: center;
-justify-items: center;
-row-gap: 34px;
-overflow: hidden;
-overflow-y: scroll;
-/* background-color: darkkhaki; */
+.grid {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  max-width: 450px;
+  width: 100%;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  row-gap: 34px;
+  overflow: hidden;
+  overflow-y: scroll;
 }
-.grid::-webkit-scrollbar{
-    display: none;
+.grid::-webkit-scrollbar {
+  display: none;
 }
-.grid div{
-    cursor: pointer;
-    /* background-color: aqua; */
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 170px;
-    width: 100%;
-    min-height: 170px;
-    padding: 7px;
-    box-shadow: 4px 4px 8px #00000040;
-
+.grid div {
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 170px;
+  width: 100%;
+  min-height: 170px;
+  padding: 7px;
+  box-shadow: 4px 4px 8px #00000040;
 }
-/* .grid div span{
-    background-color: cornflowerblue;
-} */
-.grid div span img{
-    width: 52px;
+.grid div span img {
+  width: 52px;
 }
-/* .grid div section{
-    background-color: antiquewhite;
-} */
 .grid div section h3 {
-    font-size: x-large;
-    color: #2196F3;
-    font-weight: 500;
-    
+  font-size: x-large;
+  color: #2196f3;
+  font-weight: 500;
 }
-.grid div section p{
-    font-weight: 400;
-    color: #ADADAD;
- font-size: large;   
+.grid div section p {
+  font-weight: 400;
+  color: #adadad;
+  font-size: large;
 }
-@media screen and (max-width:480px) {
-    .grid{
-        max-width:420px ;
-       
-   
+@media screen and (max-width: 480px) {
+  .grid {
+    max-width: 420px;
+
     row-gap: 29px;
-    }
+  }
 }
 
-@media screen and (max-width:450px) {
-    .grid{
-        max-width:390px ;
-      }
-    .grid div{
-        max-width: 150px;
-        min-height: 150px;
-       
-    }
+@media screen and (max-width: 450px) {
+  .grid {
+    max-width: 390px;
+  }
+  .grid div {
+    max-width: 150px;
+    min-height: 150px;
+  }
 }
-@media screen and (max-width:420px) {
-    .grid{
-        max-width:360px ;
-        }
-        .grid div{
-            max-width: 140px;
-            min-height: 140px;
-           
-        }
-    
+@media screen and (max-width: 420px) {
+  .grid {
+    max-width: 360px;
+  }
+  .grid div {
+    max-width: 140px;
+    min-height: 140px;
+  }
 }
-@media screen and (max-width:390px) {
-    .grid{
-        max-width:330px ;
-        }
-        .grid div{
-            max-width: 130px;
-            min-height: 130px;
-           
-        }
-    
-    
-.grid div span img{
+@media screen and (max-width: 390px) {
+  .grid {
+    max-width: 330px;
+  }
+  .grid div {
+    max-width: 130px;
+    min-height: 130px;
+  }
+
+  .grid div span img {
     width: 47px;
-}
-.grid div section h3 {
+  }
+  .grid div section h3 {
     font-size: large;
-    
+  }
+  .grid div section p {
+    font-size: small;
+  }
 }
-.grid div section p{
-    font-size: small;   
-}
-    }
-@media screen and (max-width:360px) {
-    .grid{
-        max-width:300px ;
-        }
-        .grid div{
-            max-width: 110px;
-            min-height: 110px;
-           
-        }
-    
-    
-.grid div span img{
+@media screen and (max-width: 360px) {
+  .grid {
+    max-width: 300px;
+  }
+  .grid div {
+    max-width: 110px;
+    min-height: 110px;
+  }
+
+  .grid div span img {
     width: 42px;
-}}
-@media screen and (max-width:330px) {
-    .grid{
-        max-width:270px ;
-        row-gap: 25px;
-        }
-        .grid div{
-            max-width: 100px;
-            min-height: 100px;
-           
-        }
-    
-    
-.grid div span img{
+  }
+}
+@media screen and (max-width: 330px) {
+  .grid {
+    max-width: 270px;
+    row-gap: 25px;
+  }
+  .grid div {
+    max-width: 100px;
+    min-height: 100px;
+  }
+
+  .grid div span img {
     width: 37px;
+  }
 }
-}
-@media screen and (max-width:300px) {
-    .grid{
-        max-width:240px ;
-        row-gap: 18px;
-        }
-        .grid div{
-            max-width: 90px;
-            min-height: 90px;
-           
-        }
-    
-    
-.grid div span img{
+@media screen and (max-width: 300px) {
+  .grid {
+    max-width: 240px;
+    row-gap: 18px;
+  }
+  .grid div {
+    max-width: 90px;
+    min-height: 90px;
+  }
+
+  .grid div span img {
     width: 32px;
-}
-.grid div section h3 {
+  }
+  .grid div section h3 {
     font-size: medium;
-    
-}
-.grid div section p{
-    font-size: x-small;   
-}
+  }
+  .grid div section p {
+    font-size: x-small;
+  }
 }
